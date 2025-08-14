@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 30px 80px;
+    background-color: #f44336;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+input#input {
+    width: 80%;
+    margin-right: -4px;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px 2px 2px 5px;
+    font-size: larger;
+    padding: 10px;
+}
+
+button#btn {
+    width: 20%;
+    border: none;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2px 5px 5px 2px;
+    font-size: larger;
+    padding: 10px;
+}
+
+.Data_List {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.Data_List span {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
